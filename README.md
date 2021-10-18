@@ -1,37 +1,35 @@
 # README Generator
+A command-line application that easily generates a README file. 
 
-  ## Description:
-  Your Github profile is an import aspect of your public identity as a developer. A well-crafted one allows you to show off your work to other developers as well as potential employers. An important component of your GitHub profile—and one that many new developers often overlook—is the README.md file. 
+## Table of Contents
+- [Purpose](#Purpose)
+- [Technologies Used](#Technologies)
+- [Installation](#Installation)
+- [Getting-Started](#Getting-Started)
+- [Contact](#Contact)
 
-  It's important to have a high quality README for your app]ications, that includes information explaining what the prohect if for, how to use the app, and how to make contributions. 
+## Purpose
+Your Github profile is an import aspect of your public identity as a developer and a well-crafted one allows you to show off your work to other developers as well as potential employers.  
 
-  Through this command-line application project creators can easily generate a README file to save some time when working on a project.
+It's important to have a high quality README for your applications that includes information explaining what the project if for and how to use the app. 
 
-  ## Table of Contents
-  - [Technologies Used](#technologies)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Github](#github)
+Through this command-line application project creators can easily generate a README file based on user input.
 
-  ## Technologies Used:
-  Javascript
+## Technologies:
+- Javascript
+- node.js
+- Inquirer
 
-  ## Installation: 
-  * clone through Github
-  * install inquirer (https://www.npmjs.com/package/inquirer)
-  
-  ## Usage:
-  Open the commandline and go into the direcotry where the project is housed.
+## Getting-Started: 
+To run the application clone the code through Github. Once installed run `npm i` to install necessary node modules and run `npm i inquirer` to install the needed inquire dependencies, to learn more vist the (inquirer)[https://www.npmjs.com/package/inquirer] website. 
 
-  Through the commandline run the line node + filename.
+Once the dependecies have been installed open the command line and from the root of the project directory run `node index.js` to initialize the application. The user will be prompted with a series of questions to populate the project README.md file. After each question is answered a new README.md file should be generated in same direcotry where the application is housed.
 
-  The user will be prompted with a series of questions to populate the project README.
+- sample of running application
 
-  After each question is answered a new README.md file should be generated in same direcotry where the application is housed.
+![alt text](utils/images/readme.gif)
 
-  ![alt text](utils/images/readme.gif)
-
-  ## Github:
-  https://github.com/Araceli4690/README-Generator.git
+## Contact
+If you have any questions feel free to contact me through my [Github](https://github.com/Araceli4690).
   
 
