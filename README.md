@@ -21,7 +21,7 @@ Through this command-line application project creators can easily generate a REA
 - Inquirer
 
 ## Getting-Started: 
-To run the application clone the code through Github. Once installed run `npm i` to install necessary node modules and run `npm i inquirer` to install the needed inquire dependencies, to learn more vist the (inquirer)[https://www.npmjs.com/package/inquirer] website. 
+To run the application clone the code through Github. Once installed run `npm i` to install necessary node modules and run `npm i inquirer` to install the needed inquire dependencies, to learn more vist the [inquirer](https://www.npmjs.com/package/inquirer) website. 
 
 Once the dependecies have been installed open the command line and from the root of the project directory run `node index.js` to initialize the application. The user will be prompted with a series of questions to populate the project README.md file. After each question is answered a new README.md file should be generated in same direcotry where the application is housed.
 
